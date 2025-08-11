@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="aruco_marker_23">
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>0.15 0.15</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://aruco_marker_23/materials/scripts/aruco.material</uri>
+            <name>MyAruco/Marker23</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>0.15 0.15</size>
+          </plane>
+        </geometry>
+      </collision>
+    </link>
+    <static>true</static> </model>
+</sdf>
